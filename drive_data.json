@@ -1,11 +1,39 @@
 {
   "name": "Mi unidad",
-  "folders": [
-    { "name": "Documentos" },
-    { "name": "Imágenes" }
-  ],
-  "files": [
-    { "name": "archivo1.pdf", "mimeType": "application/pdf" },
-    { "name": "foto.jpg", "mimeType": "image/jpeg" }
+  "type": "folder",
+  "children": [
+    {
+      "name": "Documentos",
+      "type": "folder",
+      "children": [
+        {
+          "name": "archivo1.pdf",
+          "type": "file",
+          "mimeType": "application/pdf"
+        },
+        {
+          "name": "Subcarpeta",
+          "type": "folder",
+          "children": [
+            {
+              "name": "notas.txt",
+              "type": "file",
+              "mimeType": "text/plain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imágenes",
+      "type": "folder",
+      "children": [
+        {
+          "name": "foto.jpg",
+          "type": "file",
+          "mimeType": "image/jpeg"
+        }
+      ]
+    }
   ]
 }

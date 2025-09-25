@@ -1,0 +1,11 @@
+{
+  "name": "Mi unidad",
+  "folders": [
+    { "name": "Documentos" },
+    { "name": "Imágenes" }
+  ],
+  "files": [
+    { "name": "archivo1.pdf", "mimeType": "application/pdf" },
+    { "name": "foto.jpg", "mimeType": "image/jpeg" }
+  ]
+}

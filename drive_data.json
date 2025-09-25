@@ -343,4 +343,26 @@
       "name": "Nelson Tovar.PDF",
       "type": "file",
       "mimeType": "application/vnd.google-apps.document"
+    },
+    {
+      "name": "Nelson Tovar.PDF",
+      "type": "file",
+      "mimeType": "application/pdf"
+    },
+    {
+      "name": "NT Cedula 2.jpg",
+      "type": "file",
+      "mimeType": "image/jpeg"
+    },
+    {
+      "name": "BVC.txt",
+      "type": "file",
+      "mimeType": "text/plain"
+    },
+    {
+      "name": "Rutinas.docx",
+      "type": "file",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     }
+  ]
+}
